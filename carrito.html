@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">Casa LaTorre</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="boton-menu boton-volver" href="./index.html"> <i class="bi bi-arrow-return-left"></i>Seguir Comprando</a>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito acrive" href="./carrito.html"><i class="bi bi-cart-fill"></i>Carritos</a>
+                    </li>
+                </ul>
+            </nav>
+            <footer><p class="texto-footer">©Maximo Ibañez 2024</p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3150.54301867145!2d-58.26193262337095!3d-37.84758283597276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959aaf3e472a1033%3A0x2c6856acb6ffc9fe!2sCasa%20Latorre%20Calzados!5e0!3m2!1ses-419!2sar!4v1734533880947!5m2!1ses-419!2sar" width="200" height="160" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></footer>
+        </aside>
+        <main>
+            <h2 class="titulo-principal">Todos los productos</h2>
+          <div class="contenedor-carrito">
+           
+            <p id="carrito-vacio" class="carrito-vacio disabled">Tu carrito esta vacio <i class="bi bi-emoji-frown"></i></p>
+          <div id="carrito-productos" class="carrito-productos disabled">
+
+          <div id="carrito-acciones" class="carrito-acciones">
+            <div class="carrito-acciones-izquierda">
+                <button class="carrito-acciones-vaciar"></button>
+            </div>
+            <div class="carrito-acciones-derecha">
+                <div class="carrito-acciones-total">
+                    <p>total</p>
+                    <p id="total">$3000</p>
+                </div>
+                <button class="carrito-acciones-comprar">Comprar Ahora</button>
+            </div>
+          </div>
+    </div>
+       <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra</p>
+</div>
+        </main>
+       </div>
+     
+       <script src="js/carrito.js"></script>
+       <script src="js/main.js"></script>
+ 
+</body>
+</html>
